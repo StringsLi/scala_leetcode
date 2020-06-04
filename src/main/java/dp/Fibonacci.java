@@ -32,9 +32,7 @@ public class Fibonacci {
         if (map.containsKey(n)) {
             return map.get(n);
         }
-
         int f;
-
         if (n <= 1) {
             f = n;
         } else {
