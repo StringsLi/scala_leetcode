@@ -1,12 +1,6 @@
 package com.strings.offer
 
 
-class TreeNode(var _value: Int) {
-  var value: Int = _value
-  var left: TreeNode = null
-  var right: TreeNode = null
-}
-
 object Problem_27_mirrorTree {
 
   def mirrorTree(root: TreeNode): TreeNode = {

@@ -1,9 +1,5 @@
 package com.strings.offer
 
-class ListNode(var _x: Int = 0) {
-  var next: ListNode = null
-  var x: Int = _x
-}
 
 /**
  * 好好理解下，并没有很好的掌握
