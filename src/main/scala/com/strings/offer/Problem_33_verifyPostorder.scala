@@ -1,11 +1,8 @@
 package com.strings.offer
 
-import scala.annotation.tailrec
-import util.control.Breaks._
-
 /**
  *
- * 递归不当，导致堆栈溢出
+ * 递归不当的话，导致堆栈溢出
  *  */
 
 object Problem_33_verifyPostorder {
