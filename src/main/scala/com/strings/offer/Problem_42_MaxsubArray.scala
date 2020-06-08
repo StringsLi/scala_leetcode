@@ -1,6 +1,6 @@
 package com.strings.offer
 
-object Problem_40_MaxsubArray {
+object Problem_42_MaxsubArray {
 
   def main(args: Array[String]): Unit = {
     val nums = Array(-2,1,-3,4,-1,2,1,-5,4)
