@@ -13,7 +13,7 @@ class Problem_297_Codec {
   // Decodes a single string to a list of strings.
   def deserialize(s: String): TreeNode = {
     null
-    
+
   }
 
 }
