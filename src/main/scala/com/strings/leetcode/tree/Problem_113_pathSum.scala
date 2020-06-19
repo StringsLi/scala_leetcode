@@ -1,29 +1,18 @@
 package com.strings.leetcode.tree
 
+import com.strings.offer.TreeNode
+
 import scala.collection.mutable.ArrayBuffer
 
 
-/**
- *
- * 这个代码在运行时，好像有些问题
- * @param _value
- */
-class TreeNode(var _value: Int) {
-  var value: Int = _value
-  var left: TreeNode = null
-  var right: TreeNode = null
-}
-
 object Problem_113_pathSum {
   def main(args: Array[String]): Unit = {
+
     val head = new TreeNode(1)
     head.left = new TreeNode(9)
     head.right = new TreeNode(20)
     head.right.left = new TreeNode(15)
     head.right.right = new TreeNode(7)
-
-
-
     println(pathSum(head,28))
     println(pathSum(null,28))
   }

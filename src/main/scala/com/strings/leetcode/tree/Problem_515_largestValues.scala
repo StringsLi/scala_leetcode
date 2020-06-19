@@ -1,12 +1,8 @@
 package com.strings.leetcode.tree
 
-import scala.collection.mutable
+import com.strings.offer.TreeNode
 
-//class TreeNode(var _value: Int) {
-//  var value: Int = _value
-//  var left: TreeNode = null
-//  var right: TreeNode = null
-//}
+import scala.collection.mutable
 
 object Problem_515_largestValues {
   def main(args: Array[String]): Unit = {
@@ -15,7 +11,6 @@ object Problem_515_largestValues {
     head.right = new TreeNode(20)
     head.right.left = new TreeNode(15)
     head.right.right = new TreeNode(7)
-
     println(largestValues(head))
   }
 
@@ -25,7 +20,7 @@ object Problem_515_largestValues {
     val queue:mutable.Queue[TreeNode] = new mutable.Queue[TreeNode]()
     queue.enqueue(root)
 
-    while (!queue.isEmpty) {
+    while (queue.nonEmpty) {
       val cnt: Int = queue.size
       val levels: mutable.ArrayBuffer[Int] = new mutable.ArrayBuffer[Int]
       var i: Int = 0

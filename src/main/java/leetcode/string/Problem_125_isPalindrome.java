@@ -2,7 +2,7 @@ package leetcode.string;
 
 public class Problem_125_isPalindrome {
     public static void main(String[] args) {
-        String s = "A man, a plan, a canal: Panama";
+        String s = "./";
         System.out.println(isPalindrome(s));
     }
 
