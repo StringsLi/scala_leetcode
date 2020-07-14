@@ -3,7 +3,6 @@ package leetcode.dp;
 public class RobotMove {
 
     public static void main(String[] args) {
-
         int m = 3;
         int n = 7;
         System.out.println(RobotMove.unqiuePaths(m,n));
