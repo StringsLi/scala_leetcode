@@ -2,8 +2,6 @@ package com.strings.leetcode.sort;
 
 public class Problem_922_sortArrayByPar {
 
-
-
         public int[] sortArrayByParityII(int[] A) {
             int N = A.length;
             int[] ans = new int[N];
