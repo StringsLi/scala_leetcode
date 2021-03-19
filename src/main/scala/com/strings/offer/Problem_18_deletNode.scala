@@ -1,12 +1,14 @@
 package com.strings.offer
 
 
-class ListNode(var _x: Int = 0) {
-   var next: ListNode = null
-    var x: Int = _x
-  }
+
 
 object Problem_18_deletNode {
+
+  class ListNode(var _x: Int = 0) {
+    var next: ListNode = null
+    var x: Int = _x
+  }
 
   def deleteNode(head: ListNode, `val`: Int): ListNode = {
     var _head = head
