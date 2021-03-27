@@ -34,7 +34,8 @@ public class Target_38_permutation {
     }
 
     private void backtracking(List<List<Character>> list, List<Character> tempList, char[] nums){
-        if(tempList.size() == nums.length){  //已将全部数选出，满足条件加入结果集，结束递归
+        if(tempList.size() == nums.length){
+            //已将全部数选出，满足条件加入结果集，结束递归
             list.add(new ArrayList<>(tempList));
         } else{
             for(int i = 0; i < nums.length; i++){
